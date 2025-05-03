@@ -1,0 +1,57 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(client, "Клиент", "Клиент клиники")
+Person(doctor, "Сотрудник", "Врач/сотрудник клиники")
+Person(analist, "Аналитик", "Аналитик/менеджер")
+
+
+System(future, "Будущее", "Компания Будущее 2.0")
+
+Container_Boundary(future, "Компания Будущее 2.0") {
+  Container(uiClient, "UI клиента", "TypeScript, React", "UI для работы с записями для клиента")
+  Container(ui, "UI сотрудника", "TypeScript, React", "UI для работы с карточкой клиента")
+  Container(gateway, "API Gateway", "API Gateway")
+  Container(сlientsService, "Сервис клиентов", "Java, SpringBoot", "Сервис по работе с данными клиентов")
+  Container(timeService, "Сервис cотрудника", "Java, SpringBoot", "Сервис по работе с записью на прием")
+  System(auth, "Авторизация/аутентификация", "Сервис авторизации/аутентификации")
+
+
+  ContainerDb(dwh, "Legacy DWH", "MicrosoftSQL")
+  Container(airflow, "Apache Airflow")
+
+  System(bi, "Витрина", "PowerBI, витрина данных")
+
+  System(dataLake, "Data LakeHouse")
+  Container_Boundary(dataLake, "Data LakeHouse") {
+    Container(s3, "S3 хранилище", "MinIO")
+    Container(catalog, "Data Catalog", "Nessie")
+    Container(engine, "Движок запросов", "Dremio")
+  }
+}
+
+Rel(client, uiClient, "Запись на прием", "HTTPS")
+Rel(doctor, ui, "Добавление результатов осмотра/анализов", "HTTPS")
+Rel(gateway, timeService, "Запись на прием", "HTTPS")
+Rel(gateway, сlientsService, "Работа с клиентами", "HTTPS")
+Rel(uiClient, gateway, "Запись на прием", "HTTPS")
+Rel(ui, gateway, "Работа с клиентами", "HTTPS")
+Rel_Left(gateway, auth, "Авторизация/аутентификация", "HTTPS")
+
+
+Rel(engine, s3, "HTTPS")
+Rel(engine, catalog, "HTTPS")
+
+Rel(analist, bi, "Дашборды", "HTTPS")
+Rel(bi, auth, "Авторизация/аутентификация", "HTTPS")
+Rel(bi, engine, "Данные", "HTTPS")
+
+
+Rel(timeService, dwh, "данные")
+Rel(сlientsService, dwh, "данные")
+Rel(timeService, airflow, "данные")
+Rel(сlientsService, airflow, "данные")
+Rel(airflow, engine, "данные")
+
+@enduml
