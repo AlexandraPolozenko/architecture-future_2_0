@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.2.14">
+  <diagram id="1zcTAVt1k4KSup7FvAfL" name="Roadmap">
+    <mxGraphModel dx="5469" dy="3788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="3D7FDG2aXA9G618_Kong-0" />
+        <mxCell id="3D7FDG2aXA9G618_Kong-1" parent="3D7FDG2aXA9G618_Kong-0" />
+        <mxCell id="V385GmkqdXoB9pBdBrFB-0" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2710" y="-1590" width="2210" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-1" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2710" y="-1790" width="2210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-2" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2710" y="-1990" width="2210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-3" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2710" y="-2206.8" width="2200" height="196.8" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-5" value="Разворачивание Nessie, Apache, Dremio" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2440" y="-2180" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-6" value="Devops,&lt;div&gt;Backend&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2840" y="-2206.8" width="120" height="196.8" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-7" value="Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2840" y="-1990" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-8" value="Q1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2720" y="-2300" width="640" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-9" value="Создание новых витрин" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-1650" y="-1930" width="940" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-10" value="Миграция данных" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-1890" y="-1780" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-11" value="Проектирование системы управления роялми" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2060" y="-1520" width="640" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-12" value="Data Engeeners" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2840" y="-1790" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="V385GmkqdXoB9pBdBrFB-13" value="Architect, Tech Lead" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2840" y="-1590" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XVE3JAxljmpQYXg0criT-0" value="Проектирование Data LakeHouse" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2690" y="-1730" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XVE3JAxljmpQYXg0criT-1" value="Проектирование Data LakeHouse" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2690" y="-1530" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XVE3JAxljmpQYXg0criT-2" value="Миграция данных" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-1890" y="-2080" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVE3JAxljmpQYXg0criT-3" value="Реализация ролевой модели" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-1310" y="-2133.4" width="640" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XVE3JAxljmpQYXg0criT-4" value="Q2" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-2020" y="-2300" width="780" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="XVE3JAxljmpQYXg0criT-5" value="Q1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="3D7FDG2aXA9G618_Kong-1" vertex="1">
+          <mxGeometry x="-1220" y="-2300" width="730" height="74.4" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
